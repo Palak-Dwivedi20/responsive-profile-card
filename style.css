@@ -90,20 +90,34 @@ body {
 
 
 @media (max-width: 480px) {
+  body {
+    padding: 20px;
+    height: auto;
+  }
+
   .card {
-    padding: 15px 20px;
+    width: 100%;
+    max-width: 350px;
+    margin: 0 auto;
+    border-radius: 16px;
+  }
+
+  .social a {
+    padding: 10px;
+    width: 90%;
+    font-size: 15px;
+  }
+
+  .card img {
+    width: 90px;
   }
 
   .card h2 {
     font-size: 20px;
   }
 
-  .card .bio, .card .city {
+  .card .bio,
+  .card .city {
     font-size: 14px;
-  }
-
-  .social a {
-    font-size: 14px;
-    width: 100%;
   }
 }
